@@ -1,0 +1,25 @@
+.section_sidebar {
+  height: 100vh;
+  max-width: 15rem;
+  padding-top: 15px;
+}
+i {
+  font-size: 2rem;
+}
+
+.section_sidebar.collapsed {
+  max-width: 5rem;
+}
+
+.nav-text.text {
+  display: inline-block;
+}
+
+.nav-link,
+.btnCollapse a,
+.logo a {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 15px;
+}
